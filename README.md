@@ -18,6 +18,7 @@ It is a beginner-friendly DevOps project created to understand Docker, container
 ---
 
 ## 📂 Project Structure
+.
 ├── Dockerfile
 ├── index.html
 └── README.md
@@ -46,3 +47,7 @@ It is a beginner-friendly DevOps project created to understand Docker, container
 ### 1️⃣ Build Docker Image
 ```bash
 docker build -t nginx-static-site .
+
+## 📸 Preview
+![Project Preview](preview.png)
+
