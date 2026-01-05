@@ -1,3 +1,7 @@
+![Docker](https://img.shields.io/badge/Docker-Enabled-blue)
+![Nginx](https://img.shields.io/badge/Nginx-Server-green)
+![CI](https://img.shields.io/badge/GitHub_Actions-CI-success)
+
 # Dockerized Static Website using Nginx
 
 This project demonstrates how to deploy a simple static website using **Docker** and **Nginx**.
