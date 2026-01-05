@@ -246,3 +246,58 @@ footer {
     color: #7b1fa2;
     transform: scale(1.1);
 }
+
+/* HOME HERO CENTER */
+.home-hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: fadeUp 1.4s ease;
+}
+
+.home-hero h1 {
+    font-size: 4.2rem;
+    font-weight: 700;
+    color: #4a148c;
+}
+
+.home-subtitle {
+    margin-top: 18px;
+    font-size: 1.4rem;
+    opacity: 0.9;
+}
+
+/* RIGHT SIDE VERTICAL MENU */
+.home-vertical-nav {
+    position: fixed;
+    top: 50%;
+    right: 35px;
+    transform: translateY(-50%);
+}
+
+.home-vertical-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 22px 18px;
+    border-radius: 40px;
+    backdrop-filter: blur(10px);
+}
+
+.home-vertical-nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    transition: 0.3s;
+}
+
+.home-vertical-nav ul li a:hover,
+.home-vertical-nav ul li a.active {
+    color: #7b1fa2;
+    transform: scale(1.1);
+}
