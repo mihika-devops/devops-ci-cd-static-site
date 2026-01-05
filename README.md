@@ -51,3 +51,6 @@ docker build -t nginx-static-site .
 ## 📸 Preview
 ![Project Preview](preview.png)
 
+
+
+[def]: https://img.shields.io/badge/GitHub_Actions-CI-success
