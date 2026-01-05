@@ -1,37 +1,58 @@
-body {
-    font-family: 'Arial', sans-serif;
+/* Reset */
+* {
     margin: 0;
     padding: 0;
-    background: #f9f9f9;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f8f9fa;
     color: #333;
 }
 
 header {
-    background: #0d6efd;
+    background-color: #007bff;
     color: white;
     padding: 1rem 2rem;
 }
 
-nav {
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav ul {
+header nav .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul {
     list-style: none;
     display: flex;
     gap: 1rem;
 }
 
-nav a {
+header nav ul li a {
     color: white;
     text-decoration: none;
+    padding: 0.5rem 1rem;
 }
 
-.hero {
+header nav ul li a.active,
+header nav ul li a:hover {
+    background-color: white;
+    color: #007bff;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2rem;
     text-align: center;
-    margin: 3rem 0;
 }
 
 .hero h1 {
@@ -39,33 +60,27 @@ nav a {
     margin-bottom: 1rem;
 }
 
-.hero .typewriter {
-    color: #ffdd57;
-    font-weight: bold;
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
 }
 
 .btn {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    margin-top: 1rem;
-    background: #ffdd57;
-    color: #333;
+    background-color: #007bff;
+    color: white;
     text-decoration: none;
+    padding: 0.8rem 1.5rem;
     border-radius: 5px;
+    font-weight: bold;
 }
 
-.projects-section,
-.about-section,
-.contact-section {
-    padding: 2rem;
-    max-width: 800px;
-    margin: auto;
+.btn:hover {
+    background-color: #0056b3;
 }
 
-.project-card {
-    background: white;
+footer {
+    margin-top: 3rem;
     padding: 1rem;
-    margin: 1rem 0;
-    border-radius: 5px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    background-color: #333;
+    color: white;
 }
